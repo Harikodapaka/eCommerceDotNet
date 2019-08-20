@@ -1,0 +1,117 @@
+<!-- Header-->
+<header id="header">
+	<div class="header-top-login">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 col-md-4 col-md-offset-2 col-lg-4  col-lg-offset-2 ">
+					<div class="block-form">
+						<h3>Account login</h3>
+						<form >
+							<div class="row">
+								<div class="col-md-12">
+									<input type="email" id="email-signin" class="form-control" name='email' placeholder="Email">
+								</div>
+								<div class="col-md-12">
+									<input type="password" id="password-signin" class="form-control" name='password' placeholder="Password">
+								</div>
+								<div class="col-md-12">
+									<input type="button" value="Login" class="btn-default-1" onclick="login()">
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4 col-lg-4">
+					<div class="block-form">
+						<h3>Create new account</h3>
+						<form action="#" method="post">
+							<div class="row">
+								<div class="col-md-12">
+									<input type="email" id="email-reg" class="form-control" placeholder="Email">
+								</div>
+								<div class="col-md-12">
+									<input type="password" id="password-reg" class="form-control" placeholder="Password">
+								</div>
+								<div class="col-md-12">
+									<input type="button" value="Signup" class="btn-default-1" onclick="register()">
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+				<div class="col-sm-12 col-md-2 col-lg-2 text-center">
+				</div>
+			</div>
+		</div>
+		<a href="#" id="header-login-close"><i class="icon-remove"></i> </a>
+	</div>
+	<div class="header-top-row">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<!-- header-account menu -->
+					<ul class="account-menu-list list-unstyled">
+						<li><a href="/profile.html">Account</a></li>
+						<li><a href="/cart.html">Cart</a></li>
+					</ul>
+					<!-- /header-account menu -->
+				</div>
+				<div class="col-md-4">
+					<div id="first-welcome">
+						<p> Welcome <span id="user-details">visitor you can  <a href="#" id="header-login"> Login or Sign Up</a> </span> </p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- /header-top-row -->
+	<div class="header-bg">
+		<div class="header-main" id="header-main-fixed">
+			<div class="container">
+				<div id="container-fixed">
+					<div class="row">
+						<div class="col-md-6">
+							<a href="/index.html" class="header-logo pull-left"></a>
+						</div>
+						<div class="col-md-6">
+							<div class="header-mini-cart  pull-right">
+								<a href="#" data-toggle="dropdown">
+									<span id="cart_items">0</span>
+								</a>
+								<div class="dropdown-menu shopping-cart-content pull-right">
+									<div class="shopping-cart-items">
+									</div>
+									<div class="shopping-cart-total">
+										<div class="total pull-left">
+
+											<a href="/cart.html" class="btn-read pull-right" id="view_cart">View Cart</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- /header-mini-cart -->
+							<div class="top-search-form  pull-right">
+								<form action="#" method="post">
+									<input type="text" placeholder="Search ...">
+									<button type="submit"><i class="icon-search"></i></button>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="navbar yamm navbar-main" role="navigation">
+				<div class="border-menu-top"></div>
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" data-toggle="collapse" data-target="#navbar-collapse-1" class="navbar-toggle"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+						<a href="/" class="navbar-brand"><i class="icon-home"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /header-main-menu -->
+	</div>
+</header>
+<script src="js/main.js"></script>
+<!-- Load Index JS -->
